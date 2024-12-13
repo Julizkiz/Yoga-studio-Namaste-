@@ -1,0 +1,454 @@
+
+body{
+  background-color: #E7D6C3;
+  background-image: url('img/ellips.png');
+  background-repeat: no-repeat;
+  background-position:top;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+header{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+footer{
+  height: 450px;
+  padding-top: 137px;
+  text-align: center;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+nav{
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px 0;
+  overflow: hidden;
+  margin-bottom: 140px;
+}
+p{
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.logo-box {
+  float: left;
+  margin-left: 25px;
+}
+.logo {
+  margin: 0;
+  height: 70px;
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+  margin-top: 95px;
+  margin-bottom: 95px;
+  font-size: 42px;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.text{
+  text-align: center;
+  font-size: 20px;
+}
+.info{
+  width: 80%;
+  margin-left: 12%;
+  margin-top: 100px;
+  text-align: justify;
+  font-size: 20px;
+}
+#registration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  border: 3px solid #5F1A6A;
+  border-radius: 15px;
+  width: 370px;
+  height: 450px;
+  margin-top: -40px;
+}
+
+.form-text{
+  width: 300px;
+  height: 30px;
+  border: 2px solid #5F1A6A;
+  border-radius: 10px;
+  background-color: #ECEAEA;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+.button-btn{
+  width: 296px;
+  height: 58px;
+  background-color: #EBE5E0;
+  border: 2px solid #5F1A6A;
+  border-radius: 10px;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.button-btn:active{
+  background-color: #5F1A6A;
+  color: #EBE5E0;
+}
+.gallery {
+    position: relative;
+    height: 415px;
+    margin-top: 130px;
+}
+
+.gallery__link{
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    margin: 12%;
+    overflow: hidden;
+    height: 415px;
+}
+
+.gallery__img {
+    object-fit: cover;
+}
+
+.gallery__navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.gallery-pagination {
+    /* width: inherit; */
+    display: flex;
+    justify-content: center;
+}
+
+.gallery__btn {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    margin-top: -2.5px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(46, 46, 46);
+    transition: background-color .3s;
+    cursor: pointer;
+}
+
+.gallery__btn:hover {
+    background-color: rgb(73, 73, 73);
+}
+
+.gallery__btn-prev {
+    left: -2.5px;
+}
+
+.gallery__btn-next {
+    right: -2.5px;
+}
+
+.swiper-button-disabled {
+    background-color: rgb(174, 174, 174);
+    cursor: default;
+}
+
+.swiper-pagination-total {
+    opacity: .6;
+}
+ul {
+  margin: 0;
+  margin-right: 25px;
+  padding-left: 0;
+  list-style: none;
+  float: right;
+  height: 70px;
+  line-height: 70px;
+  text-align:center;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  color: #5F1A6A;
+}
+li a {
+  color: #000000;
+  text-transform: uppercase;
+}
+li {
+  display: inline-block;
+  margin-left: 55px;
+  transition: .5s linear;
+}
+.header-button{
+  width: 295px;
+  height: 90px;
+  text-align: center;
+  background-color: #E7D6C3;
+  border: 3px solid #5F1A6A;
+  border-radius: 20px;
+  margin-top:  60px;
+  opacity: 0.8;
+  font-size: 30px;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.header-button:active{
+  background-color: #5F1A6A;
+  color: #EBE5E0;
+}
+ .swiper-slide{
+  height: 407px;
+  width: 316px;
+ }
+.Coach{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.contacts{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 40px 20px;
+}
+.coach{
+  width: 286px;
+  height: 430px;
+  border-radius: 30px;
+  border: 3px solid #5F1A6A;
+  padding-top: 12px;
+  margin-top: 25px;
+  text-align: center
+}
+li a:after {
+  content: "";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  background: #868686;
+  transition: all 0.5s linear;  
+}
+li a:hover:after{
+  width: 100%;
+}
+
+/*service*/
+.services{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 250px;
+}
+.service{
+  border: 3px solid #5F1A6A;
+  border-radius: 30px;
+  width: 286px;
+  height: 286px;
+  margin: 35px 50px;
+  padding: 30px;
+  text-align: center;
+}
+.serv-button{
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 295px;
+  height: 90px;
+  text-align: center;
+  background-color: #E7D6C3;
+  border: 3px solid #5F1A6A;
+  border-radius: 20px;
+  margin-top:  60px;
+  margin-bottom: 60px;
+  opacity: 0.8;
+  font-size: 30px;
+}
+.serv-button:active{
+  background-color: #5F1A6A;
+  color: #EBE5E0;
+}
+
+/*ARTICLE*/
+
+.content{
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.content:nth-child(even){
+  flex-direction: row-reverse;
+}
+.article-text{
+  position: relative;
+  padding-left: 90px;
+  max-width: 750px;
+}
+
+.article-text::before{
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translateY(-50%);
+  display: block;
+  content: attr(data-number);
+  width: 240px;
+  height: 240px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 240px;
+  line-height: 1;
+  color: #5F1A6A;
+  opacity:0.1;
+}
+.article-title{
+  margin-bottom: 27px;
+  max-width: 555px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.2;
+}
+.article-text p{
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.78;
+}
+.article-img img{
+  display: block;
+  max-width: 100%;
+}
+/*mjdal*/
+.btn-modal{
+  text-align: center; 
+  background: none;
+  border: none;
+  margin-top: 15px;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.pop-up{
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: #E7D6C3;
+  opacity: 0.95;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.active{
+  display: block;
+}
+.pop-up-container{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.pop-up-body{
+  text-align: center;
+  width: 580px;
+  height: 400px;
+  margin: auto;
+  background-color: #E7D6C3;
+  color: black;
+  border: solid 3px #5F1A6A;
+  border-radius: 15px;
+  position: relative;
+  padding: 20px 50px;
+}
+.pop-up-close{
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 15px; 
+}
+/*REGISTRATION*/
+.reg-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.person{
+  width: 573px;
+  height: 468px;
+  border: solid 3px #5F1A6A;
+  border-radius: 30px;
+  padding-top: 25px;
+}
+.person{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.person-btn{
+  width: 509px;
+  height: 61px;
+  background-color: transparent;
+  border: solid 3px #5F1A6A;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: left;
+  padding-top: 7px;
+}
+.profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 25px;
+}
+.profile-btn{
+  width: 548px;
+  height: 75px;
+  background-color: #AC48BC;
+  border: solid 3px #AC48BC;
+  border-radius: 10px;
+  margin-top: 9px;
+  padding-left: 15px;
+  text-align: left;
+  color: #EBE5E0;
+  font-size: 26px;
+}
+.logout{
+  background-color: #5F1A6A;
+  border: solid 3px #5F1A6A;
+}

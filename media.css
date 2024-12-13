@@ -1,0 +1,113 @@
+@media(max-width: 1200px){
+  .article-text::before{
+    width: 140px;
+    height: 140px;
+    font-size: 140px;
+  }
+  .article-text{
+    padding-left: 50px;
+    max-width: 50%;
+  }
+  .article-img{
+    max-width: 40%;
+  }
+  .person{
+    width: 373px;
+    height: 368px;
+  }
+  .person-btn{
+    width: 309px;
+    height: 41px;
+  }
+  .profile-btn{
+    width: 348px;
+    height: 55px;
+    font-size: 18px;
+  }
+}
+
+@media(max-width: 800px){
+  .article-title{
+    font-size: 32px;
+  }
+  .content{
+    margin-bottom: 100px;
+  }
+  .service{
+    width: 180px;
+    height: 180px;
+    margin: 20px 30px;
+    padding: 15px;
+  }
+  .service img{
+    width: 55%;
+  }
+  .person{
+    width: 273px;
+    height: 288px;
+  }
+  .person-btn{
+    width: 209px;
+    height: 25px;
+    margin-bottom: 7px;
+  }
+  .profile-btn{
+    width: 248px;
+    height: 40px;
+    font-size: 14px;
+  }
+  .person p{
+    font-size: 12px;
+  }
+}
+
+@media(max-width: 600px){
+  .article-text, .article-img{
+    max-width: 100%;
+  }
+  .form-container{
+    width: 300px;
+    height: 350px;
+  }
+  .form-text{
+    width: 250px;
+    height: 30px;
+  }
+  .button-btn{
+    width: 250px;
+    height: 45px;
+  }
+  .pop-up-body{
+  width: 335px;
+  height: 626px;
+  padding: 10px 35px;
+  font-size: 18px;
+  }
+  .btn-modal{
+  margin-top: 7px;
+  }
+}
+
+@media screen and (max-width:554px) {
+  .logo-box {
+    float: none;
+    margin: 0 auto;
+  }
+  ul {
+    float: none;
+    margin: 0 25px;
+    }
+ li:first-of-type {margin-left:0}
+ .profile{
+    margin-left: 0;
+  }
+  .pop-up-body{
+  width: 335px;
+  height: 626px;
+  padding: 10px 35px;
+  font-size: 18px;
+  }
+  .btn-modal{
+  margin-top: 7px;
+  }
+}
